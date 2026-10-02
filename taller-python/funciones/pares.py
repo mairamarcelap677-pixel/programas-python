@@ -1,0 +1,17 @@
+#combinamos for e if 
+#append
+
+
+def obtener_pares(listas_numeros):
+    pares = [] #Lista vacia 
+    for num in listas_numeros:
+        if num % 2 == 0:
+            pares.append (num)
+    return pares 
+
+#-------------------------
+# 
+numeros = [1,2,3,4,5,6,7,8,9,10]
+print(obtener_pares(numeros))
+
+            
